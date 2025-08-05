@@ -1,0 +1,94 @@
+body {
+    background-color: #333;
+    box-sizing: border-box;
+    margin: 0;
+    padding-block: 3.5rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 3rem;
+    width: 25vh;
+    height: fit-content;
+}
+
+.card_title {
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.75);
+
+}
+
+.card_description {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: start;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+
+}
+
+.card_cta {
+    font-family: 'Lexend Deca';
+    text-decoration: none;
+    background-color: white;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    margin-top: 4rem;
+}
+
+.card-orange {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card_cta-orange {
+    color: hsl(31, 77%, 52%);
+}
+
+.card-cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card_cta-cyan {
+    color: hsl(184, 100%, 22%);
+}
+
+.card-dark-cyan {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.card_cta-dark-cyan {
+    color: hsl(179, 100%, 13%);
+}
+
+@media (min-width:600px) {
+
+    body{
+        padding-block: 10rem;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+}
